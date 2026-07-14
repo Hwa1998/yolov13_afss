@@ -141,7 +141,7 @@ model.train(data='cfg/datasets/your_data.yaml', epochs=300)
 | **自适应调参** | 无 | `adapt_ratios()` 基于真实难度分布动态修正采样比例 |
 | **活跃集保护** | 无显式约束 | 强制活跃集 ≥ 25% 且 ≥ batch_size × 16 |
 | **小数据集安全** | 无 | < 2000 张图像时自动禁用 AFSS |
-| **检测头兼容** | 仅标准 Detect | 同时支持 `Detect` 和 `Detect_NMSFree`（YOLOv13 特有检测头） |
+| **检测头兼容** | 仅标准 Detect | 同时支持 `Detect` 和 `Detect_NMSFree` |
 | **框架集成** | 独立训练循环 | 集成到 Ultralytics YOLO 框架 |
 
 ### 双重自适应机制
