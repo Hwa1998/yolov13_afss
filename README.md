@@ -235,4 +235,3 @@ AFSS: Adapted ratios based on real distribution (Easy 1200, Moderate 2300, Hard 
 ## 许可证
 
 本项目遵循 [AGPL-3.0 License](./LICENSE)，与 YOLOv13 保持一致。
-# yolov13_afss
