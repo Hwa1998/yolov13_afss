@@ -8,6 +8,7 @@
 ## 项目简介
 
 本项目基于 [YOLOv13](https://github.com/iMoonLab/yolov13) 目标检测框架，集成并复现了 CVPR 2026 论文 **"Does YOLO Really Need to See Every Training Image in Every Epoch?"** 中提出的 **AFSS（Anti-Forgetting Sampling Strategy，防遗忘采样策略）**，并在此基础上进行了多项工程化改进与自适应增强，旨在为工业缺陷检测等场景提供高效的模型训练加速方案。
+> 注意：本项目在重构过程中借助了 AI 助手，项目代码中可能留下明显的 AI 处理痕迹。
 
 ### 核心思想
 
